@@ -1,4 +1,4 @@
-# AWS-S3-External-Stage-For-Snowflake
+# AWS S3 External Stage For Snowflake
 Create AWS S3 as external stage and  load data to Snowflake
 
 Reference https://docs.snowflake.com/en/user-guide/data-load-s3-config.html
@@ -10,7 +10,9 @@ Note:
 
   Snowflake highly recommend this option, which avoids the need to supply AWS IAM credentials when creating stages or loading data.
 
+See attached document  for screenshots of each step
 
+<a href="https://github.com/hihisuresh/AWS-S3-External-Stage-For-Snowflake/blob/master/S3ExternalStageForDataIngestionToSnowflake.docx">S3ExternalStageForDataIngestionToSnowflake.docx</a>
 
 Step 1: Configure Access Permissions for the S3 Bucket
 
